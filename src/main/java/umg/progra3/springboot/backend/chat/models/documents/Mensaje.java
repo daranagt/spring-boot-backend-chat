@@ -2,6 +2,7 @@ package umg.progra3.springboot.backend.chat.models.documents;
 
 import java.io.Serializable;
 
+<<<<<<< HEAD
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -11,12 +12,17 @@ public class Mensaje implements Serializable {
 	@Id
 	private String id;
 
+=======
+public class Mensaje implements Serializable {
+
+>>>>>>> ef948536703a0f51323ae48dab25a861bee5a2cc
 	private String texto;
 	private Long fecha;
 	private String username;
 	private String tipo;
 	private String color;
 
+<<<<<<< HEAD
 	public String getId() {
 		return id;
 	}
@@ -25,6 +31,8 @@ public class Mensaje implements Serializable {
 		this.id = id;
 	}
 
+=======
+>>>>>>> ef948536703a0f51323ae48dab25a861bee5a2cc
 	public String getTexto() {
 		return texto;
 	}
